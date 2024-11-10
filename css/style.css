@@ -90,23 +90,23 @@ h1 span{
     width: 50%;
 }
 .latter form input:last-child{
-    outline: none;
+    
     display: inline-block;
-    border-top: none;
     background-color: #f9004d;
     color: white;
     border-radius: 30px;
-    padding: 9px 30px;
+    padding: 10px 30px;
     position: absolute;
-    left: 54%;
+    left: 55%;
     top: 2px;
     width: 60px;
     cursor: pointer;
+    border: none;
 
 }
 .latter form input:last-child:hover{
     background-color: transparent;
-    border-color: black; 
+    border-color: #f9004d; 
     color: #000;
     font-weight: bold;
 }
